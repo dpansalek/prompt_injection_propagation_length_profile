@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dpansalek-parallexpert_jd184"
+name = "dpansalek-prompt_injection_propagation_length_profile"
 version = "0.1.0"
 description = "按段落统计预训练并行策略专家·提示注入的跨轮传播相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dpansalek.github.io"
-Repository = "https://github.com/dpansalek/parallexpert_jd184"
-Issues = "https://github.com/dpansalek/parallexpert_jd184/issues"
+Repository = "https://github.com/dpansalek/prompt_injection_propagation_length_profile"
+Issues = "https://github.com/dpansalek/prompt_injection_propagation_length_profile/issues"
 
 [project.scripts]
-parallexpert_jd184 = "parallexpert_jd184:main"
+prompt_injection_propagation_length_profile = "prompt_injection_propagation_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["parallexpert_jd184"]
+py-modules = ["prompt_injection_propagation_length_profile"]
